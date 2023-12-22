@@ -1,0 +1,54 @@
+/* ItineraryForm.module.css */
+
+.itineraryForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.itineraryForm h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.itineraryForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.itineraryForm label {
+  margin-bottom: 10px;
+}
+
+.itineraryForm input,
+.itineraryForm button {
+  margin-top: 5px;
+  padding: 8px;
+}
+
+.itineraryForm ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.itineraryForm li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.itineraryForm button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.itineraryForm button:hover {
+  background-color: #0056b3;
+}
